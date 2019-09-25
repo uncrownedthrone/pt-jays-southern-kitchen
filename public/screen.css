@@ -27,7 +27,7 @@ h1, h3 {
 }
 
 img {
-  margin: 10px;
+  margin: 15px;
   width: 350px;
   padding: 10px;
 }
@@ -45,7 +45,7 @@ section {
     border-width: 1px;
 }
 
-.test img {
+.section1 img {
     float: left;
-    padding: 0 20px 20px 0;
+    margin: 0 20px 20px 0;
 }
