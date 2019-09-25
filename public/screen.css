@@ -1,12 +1,51 @@
 :root {
-  font: 16px / 1 sans-serif;
+  font: 20px / 1 sans-serif;
+  font-family: 'PT Sans Narrow', sans-serif;
 }
 
 html {
   height: 100%;
 }
 
+nav {
+  text-align: left;
+  padding: 5px;
+}
+
+header {
+  font-weight: bold;
+}
+
 body {
-  margin: 0;
+  margin: 10px;
   min-height: 100%;
+  background-image: url('images/hotel-wallpaper.jpg');
+}
+
+h1, h3 {
+  text-align: center;
+}
+
+img {
+  margin: 10px;
+  width: 350px;
+  padding: 10px;
+}
+
+.first, .catfish {
+  background: linear-gradient(to left, transparent, rgb(3, 14, 135));
+}
+
+.maccheese, .chix {
+  background: linear-gradient(to right, transparent, rgb(3, 14, 135));
+}
+
+section {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.test img {
+    float: left;
+    padding: 0 20px 20px 0;
 }
